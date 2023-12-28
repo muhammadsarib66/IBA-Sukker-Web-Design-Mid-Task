@@ -1,14 +1,14 @@
 import React from "react";
 import navLogo from "../assets/icons/Storefront.svg";
 import logoText from "../assets/icons/logo-text.svg";
-import Dis from "../assets/icons/Discordlogo.svg";
+// import Dis from "../assets/icons/Discordlogo.svg";
 import youtube from "../assets/icons/Youtubelogo.svg";
 import twitter from "../assets/icons/Twitterlogo.svg";
 import insta from "../assets/icons/Instagramlogo.svg";
 import Email from "../assets/icons/Email.svg";
 
 const Footer = () => {
-  const icons = [Dis, youtube, twitter, insta];
+  const icons = [ youtube, twitter, insta];
   const detail = ["Marketplace", "Rankings", "Connect a wallet"];
   console.log(icons);
   return (
